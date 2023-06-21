@@ -1,0 +1,108 @@
+* {
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+  }
+  
+  .body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: gainsboro;
+    height: 2000px;
+  }
+  
+  h1 {
+    padding-left: 400px;
+    padding-right: 450px;
+    background-color: white;
+  }
+  
+  .card {
+    height: 600px;
+    width: 450px;
+    object-fit: contain;
+    margin-top: 75px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .card-container {
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    object-fit: contain;
+  }
+  
+  img {
+    height: 400px;
+    width: 450px;
+    object-fit: cover;
+  }
+  
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .photo-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .photo-button-1 {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+  }
+  
+  .photo-button-2 {
+    margin-right: 10px;
+  }
+  
+  .photo-button-3 {
+    width: 28px;
+    height: 28px;
+    margin-left: 7px;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    object-fit: contain;
+  }
+  
+  .photo-button-4 {
+    width: 28px;
+    height: 28px;
+    margin-left: 7px;
+    border-radius: 50px;
+    object-fit: contain;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-left: -220px;
+  }
+  
+  .liked-by {
+    margin-top: 7px;
+  }
+  
+  .card-2 {
+    height: 600px;
+    width: 450px;
+    object-fit: contain;
+    margin-top: 75px;
+    background-color: white;
+    padding: 10px;
+    margin-left: -10px;
+  }
+  
